@@ -1,0 +1,158 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:918c4695-99ca-52b1-9094-74c30b16fe11",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-14T06:12:51Z",
+    "component": {
+      "type": "application",
+      "name": "L_RETICULUM",
+      "version": "e40191b3d193",
+      "bom-ref": "pkg:generic/anticloud/L_RETICULUM@e40191b3d193",
+      "purl": "pkg:generic/anticloud/L_RETICULUM@e40191b3d193",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "e40191b3d193b46b7f2d8a44424a594cd758839b"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/markqvist/Reticulum"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "cryptography",
+      "version": ">=3.4.7",
+      "purl": "pkg:pypi/cryptography@3.4.7",
+      "bom-ref": "pypi/cryptography@>=3.4.7"
+    },
+    {
+      "type": "library",
+      "name": "pyserial",
+      "version": ">=3.5",
+      "purl": "pkg:pypi/pyserial@3.5",
+      "bom-ref": "pypi/pyserial@>=3.5"
+    },
+    {
+      "type": "library",
+      "name": "compiled",
+      "version": "= True\\n",
+      "purl": "pkg:pypi/compiled@True\\n",
+      "bom-ref": "pypi/compiled@= True\\n"
+    },
+    {
+      "type": "library",
+      "name": "rnsd",
+      "version": "=RNS.Utilities.rnsd:main",
+      "purl": "pkg:pypi/rnsd@RNS.Utilities.rnsd:main",
+      "bom-ref": "pypi/rnsd@=RNS.Utilities.rnsd:main"
+    },
+    {
+      "type": "library",
+      "name": "rnstatus",
+      "version": "=RNS.Utilities.rnstatus:main",
+      "purl": "pkg:pypi/rnstatus@RNS.Utilities.rnstatus:main",
+      "bom-ref": "pypi/rnstatus@=RNS.Utilities.rnstatus:main"
+    },
+    {
+      "type": "library",
+      "name": "rnprobe",
+      "version": "=RNS.Utilities.rnprobe:main",
+      "purl": "pkg:pypi/rnprobe@RNS.Utilities.rnprobe:main",
+      "bom-ref": "pypi/rnprobe@=RNS.Utilities.rnprobe:main"
+    },
+    {
+      "type": "library",
+      "name": "rnpath",
+      "version": "=RNS.Utilities.rnpath:main",
+      "purl": "pkg:pypi/rnpath@RNS.Utilities.rnpath:main",
+      "bom-ref": "pypi/rnpath@=RNS.Utilities.rnpath:main"
+    },
+    {
+      "type": "library",
+      "name": "rnid",
+      "version": "=RNS.Utilities.rnid:main",
+      "purl": "pkg:pypi/rnid@RNS.Utilities.rnid:main",
+      "bom-ref": "pypi/rnid@=RNS.Utilities.rnid:main"
+    },
+    {
+      "type": "library",
+      "name": "rncp",
+      "version": "=RNS.Utilities.rncp:main",
+      "purl": "pkg:pypi/rncp@RNS.Utilities.rncp:main",
+      "bom-ref": "pypi/rncp@=RNS.Utilities.rncp:main"
+    },
+    {
+      "type": "library",
+      "name": "rnx",
+      "version": "=RNS.Utilities.rnx:main",
+      "purl": "pkg:pypi/rnx@RNS.Utilities.rnx:main",
+      "bom-ref": "pypi/rnx@=RNS.Utilities.rnx:main"
+    },
+    {
+      "type": "library",
+      "name": "rnir",
+      "version": "=RNS.Utilities.rnir:main",
+      "purl": "pkg:pypi/rnir@RNS.Utilities.rnir:main",
+      "bom-ref": "pypi/rnir@=RNS.Utilities.rnir:main"
+    },
+    {
+      "type": "library",
+      "name": "rnpkg",
+      "version": "=RNS.Utilities.rnpkg:main",
+      "purl": "pkg:pypi/rnpkg@RNS.Utilities.rnpkg:main",
+      "bom-ref": "pypi/rnpkg@=RNS.Utilities.rnpkg:main"
+    },
+    {
+      "type": "library",
+      "name": "rnsh",
+      "version": "=RNS.Utilities.rnsh.rnsh:main",
+      "purl": "pkg:pypi/rnsh@RNS.Utilities.rnsh.rnsh:main",
+      "bom-ref": "pypi/rnsh@=RNS.Utilities.rnsh.rnsh:main"
+    },
+    {
+      "type": "library",
+      "name": "rngit",
+      "version": "=RNS.Utilities.rngit.server:main",
+      "purl": "pkg:pypi/rngit@RNS.Utilities.rngit.server:main",
+      "bom-ref": "pypi/rngit@=RNS.Utilities.rngit.server:main"
+    },
+    {
+      "type": "library",
+      "name": "rngcs",
+      "version": "=RNS.Utilities.rngit.commitsigs:main",
+      "purl": "pkg:pypi/rngcs@RNS.Utilities.rngit.commitsigs:main",
+      "bom-ref": "pypi/rngcs@=RNS.Utilities.rngit.commitsigs:main"
+    },
+    {
+      "type": "library",
+      "name": "git-remote-rns",
+      "version": "=RNS.Utilities.rngit.client:main",
+      "purl": "pkg:pypi/git-remote-rns@RNS.Utilities.rngit.client:main",
+      "bom-ref": "pypi/git-remote-rns@=RNS.Utilities.rngit.client:main"
+    },
+    {
+      "type": "library",
+      "name": "rnodeconf",
+      "version": "=RNS.Utilities.rnodeconf:main",
+      "purl": "pkg:pypi/rnodeconf@RNS.Utilities.rnodeconf:main",
+      "bom-ref": "pypi/rnodeconf@=RNS.Utilities.rnodeconf:main"
+    }
+  ]
+}

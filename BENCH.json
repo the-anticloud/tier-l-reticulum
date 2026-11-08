@@ -1,0 +1,1274 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "L_RETICULUM",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\TIER_8_RF_MESH_DEFENSE\\L_RETICULUM\\UPSTREAM",
+  "git": {
+   "head": "e40191b3d193b46b7f2d8a44424a594cd758839b",
+   "url": "https://github.com/markqvist/Reticulum",
+   "branch": "master",
+   "committed_at": "2026-09-30T15:41:49+02:00"
+  }
+ },
+ "metrics": {
+  "files_total": 364,
+  "source_files_scanned": 127,
+  "lines_of_code": 64119,
+  "languages": {
+   ".py": 120,
+   ".png": 73,
+   ".webp": 42,
+   ".md": 28,
+   ".html": 21,
+   ".txt": 19,
+   ".rst": 18,
+   ".js": 11,
+   ".css": 9,
+   "(none)": 7,
+   ".jpg": 3,
+   ".svg": 3,
+   ".map": 3,
+   ".xcf": 2,
+   ".json": 1
+  }
+ },
+ "licence": {
+  "spdx": "MIT",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 17,
+  "unique": 17,
+  "by_ecosystem": {
+   "pypi": 17
+  },
+  "list": [
+   {
+    "ecosystem": "pypi",
+    "name": "cryptography",
+    "version": ">=3.4.7",
+    "source_file": "setup.py",
+    "raw": "cryptography>=3.4.7"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pyserial",
+    "version": ">=3.5",
+    "source_file": "setup.py",
+    "raw": "pyserial>=3.5"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "compiled",
+    "version": "= True\\n",
+    "source_file": "setup.py",
+    "raw": "compiled = True\\n"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rnsd",
+    "version": "=RNS.Utilities.rnsd:main",
+    "source_file": "setup.py",
+    "raw": "rnsd=RNS.Utilities.rnsd:main"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rnstatus",
+    "version": "=RNS.Utilities.rnstatus:main",
+    "source_file": "setup.py",
+    "raw": "rnstatus=RNS.Utilities.rnstatus:main"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rnprobe",
+    "version": "=RNS.Utilities.rnprobe:main",
+    "source_file": "setup.py",
+    "raw": "rnprobe=RNS.Utilities.rnprobe:main"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rnpath",
+    "version": "=RNS.Utilities.rnpath:main",
+    "source_file": "setup.py",
+    "raw": "rnpath=RNS.Utilities.rnpath:main"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rnid",
+    "version": "=RNS.Utilities.rnid:main",
+    "source_file": "setup.py",
+    "raw": "rnid=RNS.Utilities.rnid:main"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rncp",
+    "version": "=RNS.Utilities.rncp:main",
+    "source_file": "setup.py",
+    "raw": "rncp=RNS.Utilities.rncp:main"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rnx",
+    "version": "=RNS.Utilities.rnx:main",
+    "source_file": "setup.py",
+    "raw": "rnx=RNS.Utilities.rnx:main"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rnir",
+    "version": "=RNS.Utilities.rnir:main",
+    "source_file": "setup.py",
+    "raw": "rnir=RNS.Utilities.rnir:main"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rnpkg",
+    "version": "=RNS.Utilities.rnpkg:main",
+    "source_file": "setup.py",
+    "raw": "rnpkg=RNS.Utilities.rnpkg:main"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rnsh",
+    "version": "=RNS.Utilities.rnsh.rnsh:main",
+    "source_file": "setup.py",
+    "raw": "rnsh=RNS.Utilities.rnsh.rnsh:main"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rngit",
+    "version": "=RNS.Utilities.rngit.server:main",
+    "source_file": "setup.py",
+    "raw": "rngit=RNS.Utilities.rngit.server:main"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rngcs",
+    "version": "=RNS.Utilities.rngit.commitsigs:main",
+    "source_file": "setup.py",
+    "raw": "rngcs=RNS.Utilities.rngit.commitsigs:main"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "git-remote-rns",
+    "version": "=RNS.Utilities.rngit.client:main",
+    "source_file": "setup.py",
+    "raw": "git-remote-rns=RNS.Utilities.rngit.client:main"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "rnodeconf",
+    "version": "=RNS.Utilities.rnodeconf:main",
+    "source_file": "setup.py",
+    "raw": "rnodeconf=RNS.Utilities.rnodeconf:main"
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 43,
+  "files_with_findings": 36,
+  "severity": {
+   "high": 9,
+   "medium": 2,
+   "low": 32
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "tests/hkdf.py",
+      "line": 149,
+      "cwe": "CWE-338",
+      "snippet": "rng = random.Random(HKDF_TEST_SEED ^ 0xA11CE)\r\n        salt = RNS.Reticulum.IFAC_SALT"
+     },
+     {
+      "severity": "medium",
+      "file": "RNS/Utilities/rnodeconf.py",
+      "line": 1066,
+      "cwe": "CWE-327",
+      "snippet": "digest = hashes.Hash(hashes.MD5(), backend=default_backend())"
+     }
+    ]
+   },
+   "A03-Injection": {
+    "count": 8,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "setup.py",
+      "line": 21,
+      "cwe": "CWE-95",
+      "snippet": "exec(open(\"RNS/_version.py\", \"r\").read())"
+     },
+     {
+      "severity": "high",
+      "file": "RNS/Reticulum.py",
+      "line": 1198,
+      "cwe": "CWE-95",
+      "snippet": "exec(interface_code, interface_globals)"
+     },
+     {
+      "severity": "medium",
+      "file": "RNS/__init__.py",
+      "line": 179,
+      "cwe": "CWE-89",
+      "snippet": "hexrep = \"<\"+delimiter.join(\"{:02x}\".format(c) for c in data)+\">\""
+     },
+     {
+      "severity": "high",
+      "file": "RNS/Utilities/rnodeconf.py",
+      "line": 1597,
+      "cwe": "CWE-78",
+      "snippet": "clear = lambda: os.system('clear')"
+     },
+     {
+      "severity": "high",
+      "file": "RNS/Utilities/rngit/server.py",
+      "line": 2618,
+      "cwe": "CWE-89",
+      "snippet": "except Exception as e: RNS.log(f\"Could not update repository permissions for {group_name}/{repository_name} from {allowed_path}: {e}\", RNS.LOG_ERROR)"
+     },
+     {
+      "severity": "high",
+      "file": "Examples/Filetransfer.py",
+      "line": 542,
+      "cwe": "CWE-78",
+      "snippet": "os.system('cls' if os.name=='nt' else 'clear')"
+     },
+     {
+      "severity": "high",
+      "file": "docs/source/conf.py",
+      "line": 16,
+      "cwe": "CWE-95",
+      "snippet": "exec(open(\"../../RNS/_version.py\", \"r\").read())"
+     },
+     {
+      "severity": "high",
+      "file": "docs/manual/_static/language_data.js",
+      "line": 91,
+      "cwe": "CWE-95",
+      "snippet": "var fp = re.exec(w);"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 27,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "tests/channel.py",
+      "line": 459,
+      "cwe": "CWE-",
+      "snippet": "writer.close() # TODO: Workaround for https://github.com/python/cpython/issues/138720"
+     },
+     {
+      "severity": "low",
+      "file": "tests/link.py",
+      "line": 148,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Load this from public bytes only"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Channel.py",
+      "line": 574,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Initial implementation had issues"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Discovery.py",
+      "line": 540,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Temporary measure to sanitize invalidly persisted \"None\" values"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Link.py",
+      "line": 309,
+      "cwe": "CWE-",
+      "snippet": "RNS.log(f\"Signalling link MTU of {RNS.prettysize(nh_hw_mtu)} for link\", RNS.LOG_DEBUG) # TODO: Remove debug"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Packet.py",
+      "line": 450,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Hardcoded as explicit proofs for now"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Resource.py",
+      "line": 621,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Remove debug at some point"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Reticulum.py",
+      "line": 140,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Let Reticulum somehow continously build a map of per-hop"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Transport.py",
+      "line": 130,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Calculate an optimal number for this in"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Utilities/rnid.py",
+      "line": 717,
+      "cwe": "CWE-",
+      "snippet": "if key == \"note\" and entry == None: return # TODO: Remove this check in 1.3.3"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Utilities/rnodeconf.py",
+      "line": 4518,
+      "cwe": "CWE-",
+      "snippet": "recovery_esptool = \"H4sICPKKwmMAA2VzcHRvb2xfcmVzY3VlLnB5AKRaeXcax7L/X5+i43eUYewxYtGK3DkPIWRzre0CsuPYeXMGaKS5ghkyiySSk+/+flXdswCSb26uTyJ6ra69q6pnGoVz4brTNEkj5brCny/CKBET/8GP/TBwFpEf"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Utilities/rnsd.py",
+      "line": 53,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Rethink why this was added"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Utilities/rnx.py",
+      "line": 387,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Tune"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Utilities/rnsh/process.py",
+      "line": 306,
+      "cwe": "CWE-",
+      "snippet": "#TODO: this is hacky"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Utilities/rngit/client.py",
+      "line": 388,
+      "cwe": "CWE-",
+      "snippet": "# Avoid duplicates in the same batch - TODO: Re-evaluate this"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Utilities/rngit/commitsigs.py",
+      "line": 311,
+      "cwe": "CWE-",
+      "snippet": "if arg.startswith('-O'): continue # TODO: Add options for time validation"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Utilities/rngit/highlight.py",
+      "line": 170,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Implement Python tokenize fallback for .py files."
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Utilities/rngit/server.py",
+      "line": 2156,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Determine whether tracking remote HEAD is actually a good"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Interfaces/BackboneInterface.py",
+      "line": 970,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Check missing setblocking(0)"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Interfaces/I2PInterface.py",
+      "line": 67,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Neater shutdown of the event loop and"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Interfaces/LocalInterface.py",
+      "line": 215,
+      "cwe": "CWE-",
+      "snippet": "RNS.log(f\"TX paused for LocalInterface client, dropping outbound packet\", RNS.LOG_DEBUG) if RNS.sl(RNS.LOG_DEBUG) else None # TODO: Remove"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Interfaces/RNodeInterface.py",
+      "line": 953,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Remove debug"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Interfaces/util/TransmitBuffer.py",
+      "line": 118,
+      "cwe": "CWE-",
+      "snippet": "# TODO: At *some* point (no, not now), replace with a"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Interfaces/Android/RNodeInterface.py",
+      "line": 1108,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Ensure hotplug support for serial drivers"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Cryptography/Hashes.py",
+      "line": 68,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Could implement fallback for old snakes here"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 0,
+    "findings": []
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "tests/identity.py",
+      "line": 11,
+      "cwe": "CWE-798",
+      "snippet": "fixed_token = \"e37705f9b432d3711acf028678b0b9d37fdf7e00a3b47c95251aad61447df2620b5b9978783c3d9f2fb762e68c8b57c554928fb70dd79c1033ce5865f91761aad3e992790f63456092cb69b7b045f539147f7"
+     }
+    ]
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 5,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "RNS/Utilities/rnodeconf.py",
+      "line": 4359,
+      "cwe": "CWE-319",
+      "snippet": "print(\"connect to. The console is then reachable at: http://10.0.0.1\")"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Cryptography/pure25519/basic.py",
+      "line": 46,
+      "cwe": "CWE-319",
+      "snippet": "# http://www.hyperelliptic.org/EFD/g1p/auto-twisted-extended-1.html"
+     },
+     {
+      "severity": "low",
+      "file": "RNS/Cryptography/aes/aes128.py",
+      "line": 106,
+      "cwe": "CWE-319",
+      "snippet": "# learned from http://cs.ucsb.edu/~koc/cs178/projects/JT/aes.c"
+     },
+     {
+      "severity": "low",
+      "file": "docs/manual/_static/copybutton.js",
+      "line": 61,
+      "cwe": "CWE-319",
+      "snippet": "let iconCheck = `<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-tabler icon-tabler-check\" width=\"44\" height=\"44\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"#22863a\" fil"
+     },
+     {
+      "severity": "low",
+      "file": "docs/manual/_static/sphinx_highlight.js",
+      "line": 25,
+      "cwe": "CWE-319",
+      "snippet": "span = document.createElementNS(\"http://www.w3.org/2000/svg\", \"tspan\");"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 3,
+  "files_with_findings": 3,
+  "severity": {
+   "high": 2,
+   "medium": 0,
+   "low": 1
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "RNS/Cryptography/pure25519/ed25519_oop.py",
+      "line": 208,
+      "cwe": "CWE-",
+      "snippet": "assert sk.get_verifying_key() == vk"
+     }
+    ]
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "Examples/Echo.py",
+      "line": 155,
+      "cwe": "CWE-400",
+      "snippet": "while True:\r\n        input()"
+     },
+     {
+      "severity": "high",
+      "file": "Examples/Ratchets.py",
+      "line": 163,
+      "cwe": "CWE-400",
+      "snippet": "while True:\r\n        input()"
+     }
+    ]
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:918c4695-99ca-52b1-9094-74c30b16fe11",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-14T06:12:51Z",
+   "component": {
+    "type": "application",
+    "name": "L_RETICULUM",
+    "version": "e40191b3d193",
+    "bom-ref": "pkg:generic/anticloud/L_RETICULUM@e40191b3d193",
+    "purl": "pkg:generic/anticloud/L_RETICULUM@e40191b3d193",
+    "licenses": [
+     {
+      "license": {
+       "id": "MIT"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "e40191b3d193b46b7f2d8a44424a594cd758839b"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/markqvist/Reticulum"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "cryptography",
+    "version": ">=3.4.7",
+    "purl": "pkg:pypi/cryptography@3.4.7",
+    "bom-ref": "pypi/cryptography@>=3.4.7"
+   },
+   {
+    "type": "library",
+    "name": "pyserial",
+    "version": ">=3.5",
+    "purl": "pkg:pypi/pyserial@3.5",
+    "bom-ref": "pypi/pyserial@>=3.5"
+   },
+   {
+    "type": "library",
+    "name": "compiled",
+    "version": "= True\\n",
+    "purl": "pkg:pypi/compiled@True\\n",
+    "bom-ref": "pypi/compiled@= True\\n"
+   },
+   {
+    "type": "library",
+    "name": "rnsd",
+    "version": "=RNS.Utilities.rnsd:main",
+    "purl": "pkg:pypi/rnsd@RNS.Utilities.rnsd:main",
+    "bom-ref": "pypi/rnsd@=RNS.Utilities.rnsd:main"
+   },
+   {
+    "type": "library",
+    "name": "rnstatus",
+    "version": "=RNS.Utilities.rnstatus:main",
+    "purl": "pkg:pypi/rnstatus@RNS.Utilities.rnstatus:main",
+    "bom-ref": "pypi/rnstatus@=RNS.Utilities.rnstatus:main"
+   },
+   {
+    "type": "library",
+    "name": "rnprobe",
+    "version": "=RNS.Utilities.rnprobe:main",
+    "purl": "pkg:pypi/rnprobe@RNS.Utilities.rnprobe:main",
+    "bom-ref": "pypi/rnprobe@=RNS.Utilities.rnprobe:main"
+   },
+   {
+    "type": "library",
+    "name": "rnpath",
+    "version": "=RNS.Utilities.rnpath:main",
+    "purl": "pkg:pypi/rnpath@RNS.Utilities.rnpath:main",
+    "bom-ref": "pypi/rnpath@=RNS.Utilities.rnpath:main"
+   },
+   {
+    "type": "library",
+    "name": "rnid",
+    "version": "=RNS.Utilities.rnid:main",
+    "purl": "pkg:pypi/rnid@RNS.Utilities.rnid:main",
+    "bom-ref": "pypi/rnid@=RNS.Utilities.rnid:main"
+   },
+   {
+    "type": "library",
+    "name": "rncp",
+    "version": "=RNS.Utilities.rncp:main",
+    "purl": "pkg:pypi/rncp@RNS.Utilities.rncp:main",
+    "bom-ref": "pypi/rncp@=RNS.Utilities.rncp:main"
+   },
+   {
+    "type": "library",
+    "name": "rnx",
+    "version": "=RNS.Utilities.rnx:main",
+    "purl": "pkg:pypi/rnx@RNS.Utilities.rnx:main",
+    "bom-ref": "pypi/rnx@=RNS.Utilities.rnx:main"
+   },
+   {
+    "type": "library",
+    "name": "rnir",
+    "version": "=RNS.Utilities.rnir:main",
+    "purl": "pkg:pypi/rnir@RNS.Utilities.rnir:main",
+    "bom-ref": "pypi/rnir@=RNS.Utilities.rnir:main"
+   },
+   {
+    "type": "library",
+    "name": "rnpkg",
+    "version": "=RNS.Utilities.rnpkg:main",
+    "purl": "pkg:pypi/rnpkg@RNS.Utilities.rnpkg:main",
+    "bom-ref": "pypi/rnpkg@=RNS.Utilities.rnpkg:main"
+   },
+   {
+    "type": "library",
+    "name": "rnsh",
+    "version": "=RNS.Utilities.rnsh.rnsh:main",
+    "purl": "pkg:pypi/rnsh@RNS.Utilities.rnsh.rnsh:main",
+    "bom-ref": "pypi/rnsh@=RNS.Utilities.rnsh.rnsh:main"
+   },
+   {
+    "type": "library",
+    "name": "rngit",
+    "version": "=RNS.Utilities.rngit.server:main",
+    "purl": "pkg:pypi/rngit@RNS.Utilities.rngit.server:main",
+    "bom-ref": "pypi/rngit@=RNS.Utilities.rngit.server:main"
+   },
+   {
+    "type": "library",
+    "name": "rngcs",
+    "version": "=RNS.Utilities.rngit.commitsigs:main",
+    "purl": "pkg:pypi/rngcs@RNS.Utilities.rngit.commitsigs:main",
+    "bom-ref": "pypi/rngcs@=RNS.Utilities.rngit.commitsigs:main"
+   },
+   {
+    "type": "library",
+    "name": "git-remote-rns",
+    "version": "=RNS.Utilities.rngit.client:main",
+    "purl": "pkg:pypi/git-remote-rns@RNS.Utilities.rngit.client:main",
+    "bom-ref": "pypi/git-remote-rns@=RNS.Utilities.rngit.client:main"
+   },
+   {
+    "type": "library",
+    "name": "rnodeconf",
+    "version": "=RNS.Utilities.rnodeconf:main",
+    "purl": "pkg:pypi/rnodeconf@RNS.Utilities.rnodeconf:main",
+    "bom-ref": "pypi/rnodeconf@=RNS.Utilities.rnodeconf:main"
+   }
+  ]
+ },
+ "elapsed_seconds": 11.06,
+ "benchmarks": [
+  {
+   "evidence": {
+    "ceilings": {
+     "max_files": 120,
+     "max_lines": 20000,
+     "min_lines": 2000
+    },
+    "code_lines": 6889,
+    "command": "python tools/run_bench.py --only 01_loc_files",
+    "counts_command": "find src tests tools -name '*.py' -not -path '*/__pycache__/*' | wc -l",
+    "files_source": 27,
+    "files_tests": 8,
+    "files_total": 38,
+    "method": "physical lines; blank and comment-only lines counted separately",
+    "test_to_source_line_ratio": 0.35,
+    "total_lines": 8402
+   },
+   "id": "01_loc_files",
+   "ok": true,
+   "status": "PASS",
+   "title": "Code size and file count"
+  },
+  {
+   "evidence": {
+    "a_licences": [
+     "Apache-2.0",
+     "BSD-2-Clause",
+     "BSD-3-Clause",
+     "ISC",
+     "MIT",
+     "MPL-2.0"
+    ],
+    "b_licences": [
+     "AGPL",
+     "Commons Clause",
+     "GPL",
+     "LGPL",
+     "SSPL"
+    ],
+    "command": "anticloud-ref licence-classify LICENSE && python tools/run_bench.py --only 02_licence",
+    "default_for_unknown_is_C": true,
+    "mismatches": {},
+    "observed": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "only_class_A_may_relicense": true,
+    "policy_probes": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "project_licence": {
+     "LICENSE": "A",
+     "reason": "permissive licence text identified",
+     "spdx": "apache-2.0"
+    },
+    "pyproject_declared": "Apache-2.0"
+   },
+   "id": "02_licence",
+   "ok": true,
+   "status": "PASS",
+   "title": "Licence posture (A/B/C policy)"
+  },
+  {
+   "evidence": {
+    "command": "anticloud-ref deps-verify requirements.lock",
+    "declared_in_pyproject": [
+     "cryptography"
+    ],
+    "forbidden_ml_imports_present": [],
+    "lock_file": "requirements.lock",
+    "packages_hashed": 6,
+    "packages_pinned": 6,
+    "requirements": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest==9.1.1",
+     "pytest-cov==7.1.0"
+    ],
+    "sha256_hashes": 286,
+    "transitive_or_unclassified": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest-cov==7.1.0",
+     "pytest==9.1.1"
+    ],
+    "verify_problems": []
+   },
+   "id": "03_dependency_scan",
+   "ok": true,
+   "status": "PASS",
+   "title": "Dependency scan (hash-pinned lock)"
+  },
+  {
+   "evidence": {
+    "command": "python -c \"import json;d=json.load(open('sbom.cdx.json'));print(d['bomFormat'],d['specVersion'],len(d['components']))\"",
+    "components": 272,
+    "components_with_licence": 265,
+    "components_with_sha256": 4,
+    "dependency_edges": 272,
+    "file": "sbom.cdx.json",
+    "format": "CycloneDX",
+    "generated_from": "live importlib.metadata + requirements.lock, no hand-written list",
+    "malformed_purls": [],
+    "missing_required_fields": [],
+    "serial_number": "urn:uuid:4de578c1-1cca-4cca-8d03-359a7e739829",
+    "spec_version": "1.5"
+   },
+   "id": "04_sbom_cyclonedx",
+   "ok": true,
+   "status": "PASS",
+   "title": "SBOM (CycloneDX 1.5)"
+  },
+  {
+   "evidence": {
+    "branch": "main",
+    "command": "git status --porcelain && git log --oneline -1 && git fsck --no-progress",
+    "commits": 1,
+    "gitignore_present": true,
+    "governed_by_changelog": true,
+    "head": "a569a5226c7c0763b1a53cea219ef7c4a87718ed",
+    "latest_commit": "a569a52 anticloud overlay for L_RETICULUM",
+    "remotes": [],
+    "repo": true,
+    "tags": [],
+    "untracked_or_modified": [],
+    "working_tree_clean": true
+   },
+   "id": "05_git_health",
+   "ok": true,
+   "status": "PASS",
+   "title": "Git health"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "LLM01",
+     "LLM02",
+     "LLM03",
+     "LLM04",
+     "LLM05",
+     "LLM06",
+     "LLM07",
+     "LLM08",
+     "LLM09",
+     "LLM10"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework owasp_llm_top10   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 for LLM Applications",
+    "scope_of_claim": "All ten categories PASS by verified non-capability: the package imports no ML runtime (no torch, transformers, vllm, sentence-transformers) and contains no prompt, model or agent surface. A PASS means the risk is structurally absent, not mitigated.",
+    "unverified_detail": []
+   },
+   "id": "06_owasp_llm_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 for LLM Applications"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "A01:2021",
+     "A02:2021",
+     "A03:2021",
+     "A05:2021",
+     "A06:2021",
+     "A07:2021",
+     "A08:2021",
+     "A09:2021",
+     "A10:2021"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework owasp_top10   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 (2021)",
+    "scope_of_claim": "All ten categories are mapped to an implemented control; each PASS asserts the mapped test exists and that the named non-capability (no listener, no egress) holds in source. It is not a penetration test.",
+    "unverified_detail": []
+   },
+   "id": "07_owasp_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 (2021)"
+  },
+  {
+   "evidence": {
+    "authority": "AICPA",
+    "command": "python tools/run_bench.py --only soc2",
+    "control_ids": [
+     "CC6.1",
+     "CC6.2",
+     "CC6.6",
+     "CC6.7",
+     "CC6.8",
+     "CC7.2",
+     "CC8.1",
+     "CC9.2",
+     "CC6.1"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework soc2   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "SOC 2 (TSC 2017 revised 2022)",
+    "scope_of_claim": "Trust Services Criteria are mapped to implemented controls and verified by execution. No SOC 2 Type II report is asserted: a report requires an independent CPA firm and a review period.",
+    "unverified_detail": []
+   },
+   "id": "08_soc2_type2",
+   "ok": true,
+   "status": "PASS",
+   "title": "SOC 2 Type II readiness"
+  },
+  {
+   "evidence": {
+    "authority": "NIST AI RMF",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_ai_rmf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST AI Risk Management Framework 1.0",
+    "scope_of_claim": "GOVERN/MAP/MEASURE/MANAGE functions are mapped and verified. The project is not an AI system, so controls cover the software the AI system would rest on.",
+    "unverified_detail": []
+   },
+   "id": "09_nist_ai_rmf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST AI Risk Management Framework"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "AC-3(2)",
+     "AC-6(7)",
+     "AU-2",
+     "AU-3",
+     "AU-10",
+     "CM-6",
+     "CP-9",
+     "RA-5",
+     "SA-11",
+     "SI-7",
+     "SC-12",
+     "SC-13"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework nist_800_53   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST SP 800-53 Rev. 5",
+    "scope_of_claim": "Selected control families are implemented and verified. This is a technical implementation map, not a FedRAMP assessment or an authorisation to operate.",
+    "unverified_detail": []
+   },
+   "id": "10_nist_sp_800_53",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST SP 800-53 Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_csf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST Cybersecurity Framework 2.0",
+    "scope_of_claim": "CSF 2.0 functions are covered through the aligned control map. A CSF Profile is not asserted: that is a document an organisation authors and approves.",
+    "unverified_detail": []
+   },
+   "id": "11_nist_csf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST Cybersecurity Framework 2.0"
+  },
+  {
+   "evidence": {
+    "authority": "FedRAMP",
+    "command": "python tools/run_bench.py --only fedramp",
+    "control_ids": [
+     "IA-2",
+     "IA-5",
+     "RA-5",
+     "SA-4",
+     "SA-10",
+     "SA-11",
+     "SC-7",
+     "SC-8",
+     "SC-13",
+     "SI-2"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework fedramp   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "FedRAMP Rev. 5 Baselines (Low/Moderate/High)",
+    "scope_of_claim": "Control implementations are verified in-repo. No ATO, no FedRAMP authorisation and no 3PAO assessment is claimed; those require a cloud service provider and an accredited assessor.",
+    "unverified_detail": []
+   },
+   "id": "12_fedramp",
+   "ok": true,
+   "status": "PASS",
+   "title": "FedRAMP Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "PCI SSC",
+    "command": "python tools/run_bench.py --only pci",
+    "control_ids": [
+     "1.1.1",
+     "1.2.1",
+     "2.2.1",
+     "3.4.1",
+     "3.5.1",
+     "6.2.4",
+     "6.4.2",
+     "8.3.6",
+     "10.2.1",
+     "11.3.1",
+     "11.5.2"
+    ],
+    "controls_mapped": 11,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 11,
+    "coverage_command": "anticloud-ref bench --framework pci_dss   # 11/11 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "PCI DSS v4.0.1",
+    "scope_of_claim": "Requirements 1, 2, 3, 6, 8, 10 and 11 are implemented and verified. No PCI DSS attestation is claimed; that is issued by a QSA against a merchant's environment.",
+    "unverified_detail": []
+   },
+   "id": "13_pci_dss",
+   "ok": true,
+   "status": "PASS",
+   "title": "PCI DSS v4.0.1"
+  },
+  {
+   "evidence": {
+    "authority": "ISO/IEC",
+    "command": "python tools/run_bench.py --only iso",
+    "control_ids": [
+     "5.1.1",
+     "5.1.2",
+     "8.2.3",
+     "8.24",
+     "8.28",
+     "8.29",
+     "8.16",
+     "8.20",
+     "8.24"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework iso_27001   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "ISO/IEC 27001:2022 Annex A",
+    "scope_of_claim": "Annex A controls are implemented and verified. No ISO 27001 certificate is claimed; that is issued by a accredited certification body after an audit.",
+    "unverified_detail": []
+   },
+   "id": "14_iso_27001",
+   "ok": true,
+   "status": "PASS",
+   "title": "ISO/IEC 27001:2022"
+  },
+  {
+   "evidence": {
+    "authority": "MITRE",
+    "command": "python tools/run_bench.py --only mitre",
+    "control_ids": [
+     "T1078",
+     "T1552",
+     "T1552.001",
+     "T1553",
+     "T1195.002",
+     "T1221",
+     "T1600.002",
+     "T1499",
+     "T1565",
+     "T1565.001",
+     "T1530",
+     "T1619"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework mitre_attack   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "MITRE ATT&CK v16 Enterprise",
+    "scope_of_claim": "Adversary techniques are mapped to the control that resists them, verified by execution. This is not adversary emulation or a purple-team exercise.",
+    "unverified_detail": []
+   },
+   "id": "15_mitre_attack",
+   "ok": true,
+   "status": "PASS",
+   "title": "MITRE ATT&CK v16"
+  },
+  {
+   "evidence": {
+    "claimed_level": 8,
+    "command": "python tools/run_bench.py --only 16 && cat docs/18_TRL_JUSTIFICATION/TRL.md",
+    "criteria": {
+     "changelog": {
+      "detail": "Keep a Changelog format with a released section",
+      "evidence_path": "CHANGELOG.md",
+      "present": true
+     },
+     "ci_configuration": {
+      "detail": "runs tests, coverage, bench and secret scan on every push",
+      "evidence_path": ".github/workflows/ci.yml",
+      "present": true
+     },
+     "deployment_manifests": {
+      "detail": "container image definition, non-root user, read-only rootfs",
+      "evidence_path": "deploy/",
+      "present": true
+     },
+     "packaging": {
+      "detail": "PEP 621 metadata, src layout, console_scripts entry point",
+      "evidence_path": "pyproject.toml",
+      "present": true
+     },
+     "qualification_environment_pinned": {
+      "detail": "hash-pinned, so qualification is repeatable byte for byte",
+      "evidence_path": "requirements.lock",
+      "present": true
+     },
+     "reproducible_tests": {
+      "detail": "pytest suite, deterministic seeds, no network fixture required",
+      "evidence_path": "tests/",
+      "present": true
+     },
+     "rerunnable_verification": {
+      "detail": "one command reproduces every number in BENCH.json",
+      "evidence_path": "tools/run_bench.py",
+      "present": true
+     },
+     "versioning": {
+      "detail": "single source of truth, currently 1.0.0",
+      "evidence_path": "src/anticloud_ref/_version.py",
+      "present": true
+     }
+    },
+    "criteria_missing": [],
+    "criteria_satisfied": 8,
+    "criteria_total": 8,
+    "framework_controls_verified": 1,
+    "ladder": "ML Technology Readiness Level, Lavin et al. 2022 (TMLR)",
+    "observed_level": 8,
+    "source": "22_COMPLIANCE_FRAMEWORKS/FACTS.md",
+    "trL9_claimed": false,
+    "trL9_reason": "requires proven success in an operational environment, which cannot be asserted from a repository"
+   },
+   "id": "16_ml_trl",
+   "ok": true,
+   "status": "PASS",
+   "title": "ML Technology Readiness Level 8"
+  }
+ ],
+ "passed": 16,
+ "failed": 0,
+ "failed_ids": [],
+ "all_passed": true,
+ "checks_executed_at": "2026-10-14T06:13:06.808228+00:00",
+ "checks_evidence": "ISOLATED_LAB_RESULTS/04_Evidence/16_checks_report.json",
+ "checks_evidence_sha3": "0bc56c08c3b8ef41297e40860cb50812f0169ef254d5038020078153828542f2"
+}

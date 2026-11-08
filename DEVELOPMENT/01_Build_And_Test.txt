@@ -1,0 +1,8 @@
+ Build & Test — L_RETICULUM
+
+bash
+git clone https://github.com/markqvist/Reticulum
+cd l-reticulum
+pip install -e .dev
+pytest tests/
+
